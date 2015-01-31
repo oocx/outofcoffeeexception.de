@@ -261,6 +261,9 @@ footer .copy, footer .copy a {
   margin-right: auto;
 }
 
+.gallery a {
+  text-decoration: none;
+}
 
 .more, .date {
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
@@ -389,6 +392,12 @@ code.lang-markdown .bullet {
   padding: 1.5em;
 }
 
+.pswp__caption__center {
+  font-size: 14pt !important;
+  width: 750px !important;
+  max-width: 750px !important;
+}
+
 @media all and (max-width: 1570px) {
   body {
     font-size: 14px;
@@ -415,6 +424,12 @@ code.lang-markdown .bullet {
 }
 
 @media all and (max-width: 770px) {
+
+  .pswp__caption__center {
+    font-size: 14pt !important;
+    width: 650px !important;
+    max-width: 100% !important;
+  }
   body {
     font-size: 12px;
   }
@@ -453,7 +468,16 @@ code.lang-markdown .bullet {
   }
 }
 
+
+
 @media all and (max-width: 450px) {
+
+  .pswp__caption__center {
+    font-size: 14pt !important;
+    width: 400px !important;
+    max-width: 100% !important;
+  }
+
   body {
     background-image: none;
     margin: 0;

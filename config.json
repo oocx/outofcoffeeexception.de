@@ -6,12 +6,13 @@
     "description": "Ein Blog über Segelfliegen und Software-Entwicklung"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee"    
   ],
   "require": {
     "moment": "moment",
     "_": "underscore",
-    "typogr": "typogr"
+    "typogr": "typogr",
+    "gm": "gm"
   },
   "jade": {
     "pretty": true
