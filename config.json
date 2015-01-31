@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "http://www.outofcoffeeexception.de",
+    "name": "OutOfCoffeeException 2.0",
+    "owner": "Mathias Raacke",
+    "description": "Ein Blog über Segelfliegen und Software-Entwicklung"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  },
+  "output" : "../oocx.github.io"
+}
